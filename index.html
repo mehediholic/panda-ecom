@@ -4,8 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Ecommerce Website with Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <h1>Hi there!</h1>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Shoes</a>
+                <a class="nav-item nav-link" href="#">Backpack</a>
+                <a class="nav-item nav-link" href="#">Contact</a>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide orange-bg" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="row align-items-center">
+                      <div class="col-md-7">
+                        <h1>Mi LED TB 4A Special</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, at! Lorem ipsum dolor sit amet.<p>
+                        <h1 class="price">$1200</h1>
+                        <button class="buy-now-button">Buy Now</button>
+                      </div>
+                      <div class="col-md-5">
+                        <img src="img/banner-images/headphone.png" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="row align-items-center">
+                      <div class="col-md-7">
+                        <h1>Mi Best Smart TV 100P</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, at! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, tempore.</p>
+                        <h1>$1200</h1>
+                        <button class="buy-now-button">Buy Now</button>
+                      </div>
+                      <div class="col-md-5">
+                        <img src="img/banner-images/tv.png" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+                
+              </div>
+              <div class="carousel-item">
+                  <div class="row align-items-center">
+                      <div class="col-md-7">
+                        <h1>Cool Headphone X2M-100</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, at! Lorem ipsum dolor sit amet.</p>
+                        <h1>$1000</h1>
+                        <button class="buy-now-button">Buy Now</button>
+                      </div>
+                      <div class="col-md-5">
+                        <img src="img/banner-images/xbox.png" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+
+
+
+
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
